@@ -54,7 +54,7 @@ extension ServiceManager : URLSessionDelegate{
                        
                         let remoteCertificateData: NSData = SecCertificateCopyData(certificate!)
                         
-                        let pathToCertificate = Bundle.main.path(forResource: "divvydrive", ofType: "cer")
+                        let pathToCertificate = Bundle.main.path(forResource: "hereComesTheCertificateName", ofType: "cer")
                         
                         let localCertificateData:NSData = NSData(contentsOfFile: pathToCertificate!)!
                         //compare certification
